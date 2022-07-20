@@ -1,4 +1,4 @@
-@media only screen and (max-width: 621px){
+@media only screen and (max-width: 821px){
 
     *{
         max-width: 100%;
@@ -28,7 +28,7 @@
     }
 
     footer{
-        height: 350px;
+        height: 353px;
         display: flex;
         align-items: flex-end;
     }

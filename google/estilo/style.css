@@ -39,7 +39,6 @@ a > img{
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
-    height: 490px;
     width: 600px;
     justify-content: center;
     align-items: center;
@@ -104,13 +103,12 @@ p{
 }
 
 footer{
+    height: 400px;
     display: flex;
     align-items: flex-end;
-    height: 22vh;
 }
 
 #sub-footer{
-    height: 100%;
     width: 100%;
     margin-bottom: 0;
     background-color: #171717;

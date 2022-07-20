@@ -1,8 +1,6 @@
 @media only screen and (max-width: 821px){
 
-    *{
-        max-width: 100%;
-    }
+
 
     .part1{
         display: flex;
@@ -28,8 +26,12 @@
     }
 
     footer{
-        height: 353px;
+        min-height: 230px;
         display: flex;
-        align-items: flex-end;
+
+    }
+
+    #sub-footer{
+        height: 229px;
     }
 }

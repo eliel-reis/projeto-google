@@ -6,10 +6,16 @@
     box-sizing: border-box;
     border: 0;
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
 }
 
 body{
     background-color: #202124;
+}
+
+#total{
+    border: 1px solid red;
+    height: 100%;
 }
 
 header{
@@ -40,6 +46,7 @@ a > img{
     flex-flow: row wrap;
     flex-direction: column;
     width: 600px;
+    border: 1px solid blue;
     justify-content: center;
     align-items: center;
 }
@@ -103,14 +110,14 @@ p{
 }
 
 footer{
-    height: 400px;
-    display: flex;
-    align-items: flex-end;
+
+    border: 1px solid yellow;
+    align-items: flex-start;
 }
 
 #sub-footer{
     width: 100%;
-    margin-bottom: 0;
+    
     background-color: #171717;
 }
 

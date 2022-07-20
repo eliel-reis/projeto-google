@@ -35,15 +35,22 @@ a > img{
     border-radius: 50%;
 }
 
-main{
-   
+#centro{
     display: flex;
     flex-flow: row wrap;
     flex-direction: column;
     height: 490px;
+    width: 600px;
     justify-content: center;
     align-items: center;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .titulo{
     color: white;
@@ -97,11 +104,20 @@ p{
 }
 
 footer{
-    height: 115px;
-    background-color: #171717;    
+    display: flex;
+    align-items: flex-end;
+    height: 22vh;
 }
 
-footer > p{
+#sub-footer{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: #171717;
+}
+
+
+#sub-footer > p{
     display: flex;
     justify-content: left;
     align-items: center;

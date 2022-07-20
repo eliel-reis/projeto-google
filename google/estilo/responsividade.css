@@ -17,7 +17,7 @@
        justify-content: center;
     }
 
-    #sub-foot{
+    #sob-foot{
         padding: 10px;
     }
 
@@ -26,12 +26,15 @@
     }
 
     footer{
-        min-height: 230px;
         display: flex;
-
     }
 
     #sub-footer{
-        height: 229px;
+        height: 339px;
+    }
+
+    #sob-foot{
+        border: 1px solid lightblue;
+        padding-top: 80px;
     }
 }

@@ -1,3 +1,27 @@
-@media screen max-whi{
+@media only screen and (max-width: 621px){
+
+    *{
+        max-width: 100%;
+    }
+
+    .part1{
+        display: flex;
+        ;
+    }
+
+    .part1 >{
+        margin: 10px;
+    }
     
+    .part2{
+        display: flex;
+        flex-flow: row wrap;
+       justify-content: center;
+    }
+
+    footer{
+        height: 150px;
+        margin-bottom: 0;
+    }
+
 }

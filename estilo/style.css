@@ -18,7 +18,7 @@ header{
     justify-content: right;
     align-items: center;
     padding-top: 14px;
-    padding-right: 30px;
+    padding-right: 13px;
 }
 
 a{
@@ -113,11 +113,26 @@ footer > p{
 }
 
 #foot{
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
-nav#foot > a{
+.part1{
+    display: inline; 
+    margin-left: 0;
+}
+
+.part1 > a{
+    color: grey;
+    font-size: 0.9em;
+    margin: 14px;
+}
+
+.part2{
+    display: inline;
+}
+
+.part2 > a{
     color: grey;
     font-size: 0.9em;
     margin: 14px;

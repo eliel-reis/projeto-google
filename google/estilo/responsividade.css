@@ -21,20 +21,29 @@
         padding: 10px;
     }
 
+    #total{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
     main{
         padding: 20px;
+        flex: 80%;
+    }
+
+    #centro{
+        flex: 95%;
     }
 
     footer{
         display: flex;
+        flex: 5%;
     }
 
-    #sub-footer{
-        height: 339px;
-    }
 
     #sob-foot{
-        border: 1px solid lightblue;
-        padding-top: 80px;
+        padding-top:;
+        flex: 5%;
     }
 }

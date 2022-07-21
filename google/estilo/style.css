@@ -14,7 +14,6 @@ body{
 }
 
 #total{
-    border: 1px solid red;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -27,6 +26,7 @@ header{
     align-items: center;
     padding-top: 14px;
     padding-right: 13px;
+    flex: 5%;
 }
 
 a{
@@ -48,16 +48,17 @@ a > img{
     flex-flow: row wrap;
     flex-direction: column;
     width: 600px;
-    border: 1px solid blue;
     justify-content: center;
     align-items: center;
+    flex: 90%;
+   
 }
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 80%;
+    flex: 90%;
 }
 
 
@@ -114,10 +115,9 @@ p{
 }
 
 footer{
-    border: 1px solid yellow;
     align-items: flex-start;
     height: 200px;
-    flex: 20%;
+    flex: 5%;
 }
 
 #sub-footer{

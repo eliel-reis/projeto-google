@@ -14,12 +14,22 @@ body{
 }
 
 #total{
-    height: 100vh;
     display: flex;
     flex-direction: column;
+  
 }
 
-header{
+.cabeça{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20%;
+    
+    width: 100%;
+
+}
+
+/* header{
     display: flex;
     flex-flow: row wrap;
     justify-content: right;
@@ -27,7 +37,7 @@ header{
     padding-top: 14px;
     padding-right: 13px;
     flex: 5%;
-}
+} */
 
 a{
     margin: 8px;
@@ -50,7 +60,8 @@ a > img{
     width: 600px;
     justify-content: center;
     align-items: center;
-    flex: 90%;
+    height: 78vh;
+    
    
 }
 
@@ -118,6 +129,7 @@ footer{
     align-items: flex-start;
     height: 200px;
     flex: 5%;
+
 }
 
 #sub-footer{

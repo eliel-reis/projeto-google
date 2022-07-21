@@ -31,20 +31,18 @@
     #total{
         display: flex;
         flex-direction: column;
-    }
-
-    main{
-        padding: 20px;
-        flex: 80%;
+        height: 100vh;
     }
 
     #centro{
-        flex: 95%;
+        padding: 0px 20px;
+        height: auto;
     }
 
     footer{
         display: flex;
         flex: 5%;
+        height: auto;
     }
 
 

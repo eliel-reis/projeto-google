@@ -8,24 +8,33 @@
 
     .part1{
         display: flex;
-        margin: 10px;
+        margin: 12px;
         width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 
     .part2{
         display: flex;
         width: 100%;
         margin: 12px;
-    }
-    
-    .part2{
-        display: flex;
         flex-flow: row wrap;
        justify-content: center;
+       align-items: center;
     }
+    
 
     #sob-foot{
-        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 3px 10px;
+        flex: 5%;
+    }
+
+    #sob-foot > p{
+        top: 3px;
+        width: 100%;
+        margin: auto;
     }
 
     #total{
@@ -45,8 +54,8 @@
         height: auto;
     }
 
-
-    #sob-foot{
-        flex: 5%;
+    #foot{
+        display: flex;
+        flex-direction: column;
     }
 }
